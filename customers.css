@@ -1,0 +1,71 @@
+.customers-header-content{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #0a1a29;
+    color: white;
+}
+.customers-header-content h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+   
+}
+
+.customers-header-content p{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+/*customers stories header-*/
+
+.customer-stories-header-content{
+  text-align: center;
+  margin-top: 30px;
+}
+.customer-stories-header-content p{
+    color: gray;
+}
+
+/*customers review*/
+
+.customers-review-main-container{
+background-color: lavender;
+}
+
+
+.customers-review-sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+   
+}
+.customer-content:hover{
+    border: 2px solid black;
+}
+.customer-content{
+width: 20%;
+padding: 20px;
+margin: 30px;
+background-color: white;
+}
+.customer-content p{
+    text-align: center;
+}
+.customers-review-sub-container img{
+    align-items: center;
+   
+    margin-bottom: 30px;
+}
+#person-img{
+height: 150px;
+width: 100%;
+border: 2px solid gray;
+}
+#logo-img{
+ margin-left: 20%;
+   
+}
+
