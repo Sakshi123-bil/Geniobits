@@ -1,0 +1,44 @@
+
+.header-pricing{
+    margin-bottom: 40px;
+}
+
+.lr-green{
+    color: royalblue;
+}
+
+
+.plan-name{
+background-color: royalblue;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+color:white;
+letter-spacing: 2px;
+font-weight: bold;
+}
+
+.pricing-img{
+  margin-left: 150px;
+}
+.plan-amt{
+    text-align: center;
+}
+.lr-ct-pricing-btn{
+    background-color: royalblue;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.features-style{
+    margin-left: 10px;
+}
+.pricing-tick{
+    margin: 15px;
+}
