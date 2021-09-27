@@ -10,7 +10,8 @@ html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
     height: 50px;
     width: 100%;
     background-color:RoyalBlue;
-    position: relative;
+    position: fixed;
+    top:0;
     font-family: 'Roboto Slab', serif;
     margin-bottom: -30px;
    

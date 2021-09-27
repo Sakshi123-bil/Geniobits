@@ -1,6 +1,12 @@
 
 .header-pricing{
     margin-bottom: 40px;
+  
+}
+
+
+.header-pricing h2{
+    padding: 30px;
 }
 
 .lr-green{
