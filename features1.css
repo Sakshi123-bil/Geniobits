@@ -1,0 +1,151 @@
+.main-container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     margin-top: 50px;
+    background-color:#0a1a29;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.main-container-page{
+    margin-top: 12px;
+     display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+}
+.main-container-page-description{
+    width: 30%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-container-page-img{
+
+    width: 60%;
+}
+.ceo-main-container{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.ceo-main-container-head{
+    width: 70%;
+}
+.ceo-main-container-img{
+     width: 20%;
+}
+.vedio{
+display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.vv{
+    width:650px;
+     height:350px;
+
+}
+.feature-main{
+    display: flex;
+  color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    
+}
+.feature-head{
+     display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.feature{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 30%;
+}
+.create-course-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+.create-course-section-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.create-course-section-heading{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 22px;
+
+}
+@media only screen and (max-width: 600px) {
+.main-container-page-description{
+    width: 100%;
+    text-align: justify;
+   
+    
+}
+.main-container-page-img{
+    order: 1;
+
+    width: 100%;
+}
+.ceo-main-container-head{
+    width: 100%;
+    text-align: justify;
+    font-size: 19px!important;
+    order: 2;
+    
+    
+}
+.ceo-main-container{
+     padding: 12%;
+}
+.ceo-main-container-img{
+     width: 100%;
+}
+.vb{
+    width: 100%!important;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.vv{
+    width: 100%;
+    padding: 0%;
+}
+.box{
+  width: 100%;
+}
+.create-course-section-img{
+ width: 100%;
+}
+
+}
