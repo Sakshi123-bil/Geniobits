@@ -1,11 +1,10 @@
-$(document).ready(function() {
-    // Toggle menu on click
-    $("#menu-toggler").click(function() {
-      toggleBodyClass("menu-active");
-    });
-  
-    function toggleBodyClass(className) {
-      document.body.classList.toggle(className);
-    }
-  
-   });
+$("#search-icon").click(function() {
+  $(".nav").toggleClass("search");
+  $(".nav").toggleClass("no-search");
+  $(".search-input").toggleClass("search-active");
+});
+
+$('.menu-toggle').click(function(){
+   $(".nav").toggleClass("mobile-nav");
+   $(this).toggleClass("is-active");
+});
