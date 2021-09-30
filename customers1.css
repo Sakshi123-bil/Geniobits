@@ -1,0 +1,84 @@
+.navbar-nav{
+    float: right!important;
+}
+.customers-header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #0a1a29;
+    color: white;
+    width: 100%;
+}
+.customer-stories-header-content{
+   margin-top: 12px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.customer-stories-header-content p{
+    
+    color: gray;
+}
+.customers-review-main-container{
+background-color: lavender;
+}
+
+
+.customers-review-sub-container{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+   
+   
+}
+.customer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+margin: 30px;
+background-color: white;
+}
+.customer-content:hover{
+    border: 2px solid black;
+}
+
+.create-course-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+.create-course-section-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.create-course-section-heading{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 22px;
+
+}
+@media only screen and (max-width: 600px) {
+    .create-course-section-img{
+       width: 100%;
+}
+    
+}
